@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "04e91b612e9ea09b6d0e4c361decc1a3",
-    "content-hash": "c7382da6cc17a3a05610d0946b4f9cf4",
+    "hash": "176de8858005540dc0082a1f558f841d",
+    "content-hash": "0808c6048636be9eda5506a7633eb7f1",
     "packages": [
         {
             "name": "bitaac/bitfabric",
-            "version": "dev-tfs10",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/bitfabric.git",
-                "reference": "899a95b9d7df57f088cee4d612778b729e0bc891"
+                "reference": "bf7997ae6a8889682b14aada3edb42bc330f12f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/899a95b9d7df57f088cee4d612778b729e0bc891",
-                "reference": "899a95b9d7df57f088cee4d612778b729e0bc891",
+                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/bf7997ae6a8889682b14aada3edb42bc330f12f8",
+                "reference": "bf7997ae6a8889682b14aada3edb42bc330f12f8",
                 "shasum": ""
             },
             "require-dev": {
@@ -41,11 +41,11 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-10-30 09:14:15"
+            "time": "2016-10-30 10:17:43"
         },
         {
             "name": "bitaac/theme-retro",
-            "version": "dev-tfs10",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/theme-retro.git",
