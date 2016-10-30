@@ -38,7 +38,7 @@ return [
     'guards' => [
         'web' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'bitaac',
         ],
 
         'api' => [
@@ -65,10 +65,15 @@ return [
     */
 
     'providers' => [
-        'users' => [
-            'driver' => 'eloquent',
-            'model' => App\User::class,
+        'bitaac' => [
+            'driver' => 'bitaac',
+            'model' => Bitaac\Contracts\Account::class,
         ],
+        
+        // 'users' => [
+        //     'driver' => 'eloquent',
+        //     'model' => App\User::class,
+        // ],
 
         // 'users' => [
         //     'driver' => 'database',
