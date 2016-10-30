@@ -1,12 +1,14 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "bitaac/bitaac",
+    "description": "An automatic account creator for Open Tibia servers.",
+    "keywords": ["bitaac", "bitfabric", "laravel", "tibia", "opentibia"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*"
+        "laravel/framework": "5.3.*",
+        "bitaac/bitfabric": "dev-tfs10",
+        "bitaac/theme-retro": "dev-tfs10"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
