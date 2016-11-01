@@ -8,7 +8,8 @@
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
         "bitaac/bitfabric": "@dev",
-        "bitaac/theme-retro": "@dev"
+        "bitaac/theme-retro": "@dev",
+        "bitaac/theme-admin": "@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
