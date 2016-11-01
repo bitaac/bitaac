@@ -168,6 +168,8 @@ return [
          */
 
         Bitaac\Core\Providers\BitfabricServiceProvider::class,
+        PragmaRX\Google2FA\Vendor\Laravel\ServiceProvider::class,
+        Barryvdh\Omnipay\ServiceProvider::class,
 
         /*
          * Application Service Providers...
