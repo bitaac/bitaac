@@ -13,7 +13,8 @@
         "pragmarx/google2fa": "^1.0",
         "bacon/bacon-qr-code": "~1.0",
         "omnipay/paypal": "~2.0",
-        "barryvdh/laravel-omnipay": "0.2.*@dev"
+        "barryvdh/laravel-omnipay": "0.2.*@dev",
+        "doctrine/dbal": "^2.5"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
