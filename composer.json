@@ -7,9 +7,9 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "bitaac/bitfabric": "@dev",
-        "bitaac/theme-retro": "@dev",
-        "bitaac/theme-admin": "@dev",
+        "bitaac/bitfabric": "~1.0.0-beta",
+        "bitaac/theme-retro": "~1.0.0-beta",
+        "bitaac/theme-admin": "~1.0.0-beta",
         "pragmarx/google2fa": "^1.0",
         "bacon/bacon-qr-code": "~1.0",
         "omnipay/paypal": "~2.0",
