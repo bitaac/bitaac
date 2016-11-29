@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "00bbeb0cd4e9c35fb6ee1000ea4d905f",
-    "content-hash": "efcfc4f7b47bf4cb12dbd3c614627c1b",
+    "hash": "87261c73fb1013cdf8da8b01a686ad21",
+    "content-hash": "05eb3e3d25ea77596fed7656cd08b0a5",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -98,16 +98,16 @@
         },
         {
             "name": "bitaac/bitfabric",
-            "version": "dev-master",
+            "version": "1.0.5-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/bitfabric.git",
-                "reference": "1561593c000433f87fb2f1fefab34d7749cd4639"
+                "reference": "10519edf2eff5bcac5ac01c89509b3c41a3d2437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/1561593c000433f87fb2f1fefab34d7749cd4639",
-                "reference": "1561593c000433f87fb2f1fefab34d7749cd4639",
+                "url": "https://api.github.com/repos/bitaac/bitfabric/zipball/10519edf2eff5bcac5ac01c89509b3c41a3d2437",
+                "reference": "10519edf2eff5bcac5ac01c89509b3c41a3d2437",
                 "shasum": ""
             },
             "type": "library",
@@ -126,11 +126,11 @@
                     "email": "kristoffereklund1@gmail.com"
                 }
             ],
-            "time": "2016-11-29 01:35:12"
+            "time": "2016-11-29 01:47:56"
         },
         {
             "name": "bitaac/theme-admin",
-            "version": "dev-master",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/theme-admin.git",
@@ -162,7 +162,7 @@
         },
         {
             "name": "bitaac/theme-retro",
-            "version": "dev-master",
+            "version": "1.0.5-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitaac/theme-retro.git",
@@ -4398,9 +4398,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "bitaac/bitfabric": 20,
-        "bitaac/theme-retro": 20,
-        "bitaac/theme-admin": 20,
+        "bitaac/bitfabric": 10,
+        "bitaac/theme-retro": 10,
+        "bitaac/theme-admin": 10,
         "barryvdh/laravel-omnipay": 20
     },
     "prefer-stable": false,
