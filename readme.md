@@ -24,3 +24,9 @@ Once the installation process is complete, you'll want to edit the `.env` file t
 ```bash
 php artisan migrate --seed
 ```
+
+And finally publish the assets.
+
+```bash
+php artisan vendor:publish
+```
