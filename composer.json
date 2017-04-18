@@ -8,6 +8,7 @@
         "php": ">=5.6.4",
         "laravel/framework": "5.4.*",
         "eklundkristoffer/seedster": "^1.0",
+        "bitaac/bitfabric": "1.0.*",
         "bitaac/theme-retro": "1.0.*",
         "bitaac/theme-admin": "1.0.*",
         "pragmarx/google2fa": "^1.0",
