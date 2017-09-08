@@ -25,9 +25,6 @@
         "phpunit/phpunit": "~6.0"
     },
     "autoload": {
-        "files": [
-            "routes/extensions.php"
-        ],
         "classmap": [
             "database"
         ],
