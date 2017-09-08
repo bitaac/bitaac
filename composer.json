@@ -10,7 +10,7 @@
         "laravel/framework": "5.5.*",
         "eklundkristoffer/seedster": "^2.0",
         "bitaac/bitfabric": "2.0.*",
-        "bitaac/theme-default": "2.0.*",
+        "bitaac/theme-default": "1.0.*",
         "bitaac/theme-admin": "2.0.*",
         "pragmarx/google2fa": "^1.0",
         "bacon/bacon-qr-code": "~1.0",
