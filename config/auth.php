@@ -69,11 +69,6 @@ return [
             'driver' => 'bitaac',
             'model' => Bitaac\Contracts\Account::class,
         ],
-        
-        // 'users' => [
-        //     'driver' => 'eloquent',
-        //     'model' => App\User::class,
-        // ],
 
         // 'users' => [
         //     'driver' => 'database',

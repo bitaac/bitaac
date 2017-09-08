@@ -1,13 +1,20 @@
 {
-    "name": "bitaac/bitaac",
-    "description": "An automatic account creator for Open Tibia servers.",
-    "keywords": ["bitaac", "bitfabric", "laravel", "tibia", "opentibia"],
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
+        "laravel/tinker": "~1.0"
+    },
+    "require-dev": {
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~6.0",
         "eklundkristoffer/seedster": "^2.0",
         "bitaac/bitfabric": "2.0.*",
         "bitaac/theme-default": "1.0.*",
@@ -18,15 +25,10 @@
         "eklundkristoffer/laravel-omnipay": "^0.1.4",
         "doctrine/dbal": "^2.5"
     },
-    "require-dev": {
-        "filp/whoops": "~2.0",
-        "fzaninotto/faker": "~1.4",
-        "mockery/mockery": "0.9.*",
-        "phpunit/phpunit": "~6.0"
-    },
     "autoload": {
         "classmap": [
-            "database"
+            "database/seeds",
+            "database/factories"
         ],
         "psr-4": {
             "App\\": "app/"
